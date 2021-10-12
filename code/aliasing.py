@@ -1,3 +1,5 @@
+""""useless addtion, testing github"""
+
 """This file contains code used in "Think DSP",
 by Allen B. Downey, available from greenteapress.com
 
@@ -39,7 +41,7 @@ def triangle_example(freq):
     spectrum.plot()
     thinkplot.config(ylim=[0, 500],
                      xlabel='Frequency (Hz)')
-    
+
     thinkplot.save(root='triangle-%d-2' % freq)
 
 
